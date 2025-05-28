@@ -1,0 +1,18 @@
+.cardActions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.deleteButton {
+  background: #ff4444;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background: #cc0000;
+}

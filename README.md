@@ -1,3 +1,33 @@
+# My Next.js Blog App
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## 📸 Screenshots
+
+### Homepage Views  
+![Homepage Screenshot 1](screenshots/homepage1.png)  
+![Homepage Screenshot 2](screenshots/homepage2.png)
+
+### Add Post Page  
+![Add Post Screenshot](screenshots/addpost.png)
+
+### Comment Section  
+![Comment Screenshot](screenshots/comment.png)
+
+### Footer Area  
+![Footer Screenshot](screenshots/footer.png)
+
+### Like, Delete, Share Buttons  
+![Like, Delete, Share Screenshot](screenshots/like-delete-share.png)
+
+---
+
+
+
+## Getting Started
+
+... rest of your README ...
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

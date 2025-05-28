@@ -1,0 +1,141 @@
+
+.userActions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.userActions button {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.authModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Above background */
+}
+
+.authContent {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.authInput {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.authButton {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.3s ease;
+}
+
+.authButton:hover {
+  background: #2980b9;
+}
+
+.closeButton {
+  background: transparent;
+  color: #666;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.closeButton:hover {
+  color: #333;
+}
+
+
+
+
+
+
+
+
+/* styles/User.module.css */
+.userBadge {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Login/Change Link - Now using span instead of button */
+.authLink {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;       
+  font-size: 1rem;
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+.authLink:hover {
+  color:#e6caca;
+  text-decoration: none;
+}
+
+/* Logout Button - Maintains button styling */
+.logoutButton {
+  background-color: #ff4d4d;
+  color:rgb(69, 59, 161);
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.logoutButton:hover {
+  background-color:rgb(236, 167, 167);
+}
+
+
+
+.username {
+  font-weight: 500;
+}
